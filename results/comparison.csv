@@ -1,0 +1,9 @@
+Metric,Baseline,Optimized,Improvement,Improvement %
+Average Throughput (Mbps),50,180,130,260%
+Peak Throughput (Mbps),75,250,175,233%
+Average Latency (ms),35,12,-23,-66%
+Packet Loss Rate (%),2.5,0.3,-2.2,-88%
+WiFi Coverage (%),78,95,17,22%
+Device Connection Time (s),8,2,-6,-75%
+Concurrent Users,120,500,380,317%
+Bandwidth Utilization (%),65,45,-20,-31%
