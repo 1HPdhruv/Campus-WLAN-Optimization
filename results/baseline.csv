@@ -1,0 +1,9 @@
+Metric,Value,Unit
+Average Throughput,50,Mbps
+Peak Throughput,75,Mbps
+Average Latency,35,ms
+Packet Loss Rate,2.5,%
+WiFi Coverage,78,%
+Device Connection Time,8,seconds
+Concurrent Users,120,users
+Bandwidth Utilization,65,%
