@@ -1,0 +1,132 @@
+{
+  "within_vlan": {
+    "stats": [
+      4,
+      4,
+      0
+    ],
+    "expected": "allow",
+    "source": "PC0",
+    "target": "10.10.10.21"
+  },
+  "student_faculty": {
+    "stats": [
+      4,
+      4,
+      0
+    ],
+    "expected": "allow",
+    "source": "PC0",
+    "target": "10.10.20.21"
+  },
+  "faculty_admin": {
+    "stats": [
+      4,
+      4,
+      0
+    ],
+    "expected": "allow",
+    "source": "PC3",
+    "target": "10.10.30.10"
+  },
+  "student_admin": {
+    "stats": [
+      4,
+      0,
+      4
+    ],
+    "expected": "deny",
+    "source": "PC0",
+    "target": "10.10.30.10"
+  },
+  "guest_external": {
+    "stats": [
+      4,
+      4,
+      0
+    ],
+    "expected": "allow",
+    "source": "Laptop1",
+    "target": "203.0.113.10"
+  },
+  "guest_admin": {
+    "stats": [
+      4,
+      0,
+      4
+    ],
+    "expected": "deny",
+    "source": "Laptop1",
+    "target": "10.10.30.10"
+  },
+  "iot_external": {
+    "stats": [
+      4,
+      4,
+      0
+    ],
+    "expected": "allow",
+    "source": "PC2",
+    "target": "203.0.113.10"
+  },
+  "iot_admin": {
+    "stats": [
+      4,
+      0,
+      4
+    ],
+    "expected": "deny",
+    "source": "PC2",
+    "target": "10.10.30.10"
+  },
+  "management_access": {
+    "stats": [
+      4,
+      4,
+      0
+    ],
+    "expected": "allow",
+    "source": "PC5",
+    "target": "10.10.99.11"
+  },
+  "management_core": {
+    "stats": [
+      4,
+      4,
+      0
+    ],
+    "expected": "allow",
+    "source": "PC5",
+    "target": "10.255.0.5"
+  },
+  "student_management": {
+    "stats": [
+      4,
+      0,
+      4
+    ],
+    "expected": "deny",
+    "source": "PC0",
+    "target": "10.10.99.11"
+  },
+  "external_management": {
+    "stats": [
+      4,
+      0,
+      4
+    ],
+    "expected": "deny",
+    "source": "PC6",
+    "target": "10.10.99.11"
+  },
+  "wireless_student": {
+    "stats": [
+      4,
+      4,
+      0
+    ],
+    "expected": "allow",
+    "source": "Laptop0",
+    "target": "10.10.10.10"
+  }
+}

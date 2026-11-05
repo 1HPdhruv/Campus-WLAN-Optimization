@@ -1,0 +1,101 @@
+[
+  {
+    "flow": "within_vlan",
+    "label": "Wired within VLAN",
+    "short_label": "Wired within VLAN",
+    "baseline_received": 4,
+    "optimized_received": 4,
+    "packets_sent": 4,
+    "optimized_expected": "allow",
+    "baseline_evidence": "submission-evidence/logs/baseline_within_vlan_first.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_within_vlan_first.txt"
+  },
+  {
+    "flow": "student_admin",
+    "label": "Student to Administration",
+    "short_label": "Student/Admin",
+    "baseline_received": 4,
+    "optimized_received": 0,
+    "packets_sent": 4,
+    "optimized_expected": "deny",
+    "baseline_evidence": "submission-evidence/logs/baseline_student_admin_first.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_student_admin_first.txt"
+  },
+  {
+    "flow": "faculty_admin",
+    "label": "Faculty to Administration",
+    "short_label": "Faculty/Admin",
+    "baseline_received": 4,
+    "optimized_received": 4,
+    "packets_sent": 4,
+    "optimized_expected": "allow",
+    "baseline_evidence": "submission-evidence/logs/baseline_faculty_admin_first.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_faculty_admin_repeat.txt"
+  },
+  {
+    "flow": "guest_admin",
+    "label": "Guest to Administration",
+    "short_label": "Guest/Admin",
+    "baseline_received": 4,
+    "optimized_received": 0,
+    "packets_sent": 4,
+    "optimized_expected": "deny",
+    "baseline_evidence": "submission-evidence/logs/baseline_guest_admin_first.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_guest_admin_first.txt"
+  },
+  {
+    "flow": "guest_external",
+    "label": "Guest to external host",
+    "short_label": "Guest/External",
+    "baseline_received": 4,
+    "optimized_received": 4,
+    "packets_sent": 4,
+    "optimized_expected": "allow",
+    "baseline_evidence": "submission-evidence/logs/baseline_guest_external_repeat.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_guest_external_first.txt"
+  },
+  {
+    "flow": "iot_admin",
+    "label": "IoT proxy to Administration",
+    "short_label": "IoT proxy to Administration",
+    "baseline_received": 4,
+    "optimized_received": 0,
+    "packets_sent": 4,
+    "optimized_expected": "deny",
+    "baseline_evidence": "submission-evidence/logs/baseline_iot_admin_first.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_iot_admin_first.txt"
+  },
+  {
+    "flow": "wireless_student",
+    "label": "Wireless Student to wired Student",
+    "short_label": "Wireless Student to wired Student",
+    "baseline_received": 4,
+    "optimized_received": 4,
+    "packets_sent": 4,
+    "optimized_expected": "allow",
+    "baseline_evidence": "submission-evidence/logs/baseline_wireless_student_first.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_wireless_student_first.txt"
+  },
+  {
+    "flow": "student_management",
+    "label": "Student to management switch",
+    "short_label": "Student to management switch",
+    "baseline_received": 4,
+    "optimized_received": 0,
+    "packets_sent": 4,
+    "optimized_expected": "deny",
+    "baseline_evidence": "submission-evidence/logs/baseline_student_management_repeat.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_student_management_first.txt"
+  },
+  {
+    "flow": "iot_external",
+    "label": "IoT proxy to external host",
+    "short_label": "IoT proxy to external host",
+    "baseline_received": 4,
+    "optimized_received": 4,
+    "packets_sent": 4,
+    "optimized_expected": "allow",
+    "baseline_evidence": "submission-evidence/logs/baseline_iot_external_repeat.txt",
+    "optimized_evidence": "submission-evidence/logs/optimized_iot_external_first.txt"
+  }
+]

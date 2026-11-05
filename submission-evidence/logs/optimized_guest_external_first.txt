@@ -1,0 +1,17 @@
+
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ping 203.0.113.10
+
+Pinging 203.0.113.10 with 32 bytes of data:
+
+Reply from 203.0.113.10: bytes=32 time=27ms TTL=125
+Reply from 203.0.113.10: bytes=32 time=28ms TTL=125
+Reply from 203.0.113.10: bytes=32 time=19ms TTL=125
+Reply from 203.0.113.10: bytes=32 time=39ms TTL=125
+
+Ping statistics for 203.0.113.10:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 19ms, Maximum = 39ms, Average = 28ms
+
+C:\>

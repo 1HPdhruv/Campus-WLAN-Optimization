@@ -1,0 +1,46 @@
+enable
+configure terminal
+hostname ACCESS-GROUND
+no ip domain-lookup
+interface fastEthernet0/1
+switchport mode trunk
+switchport trunk native vlan 1
+switchport trunk allowed vlan 1
+no shutdown
+exit
+interface fastEthernet0/2
+switchport mode access
+switchport access vlan 1
+spanning-tree portfast
+no shutdown
+exit
+interface fastEthernet0/3
+switchport mode access
+switchport access vlan 1
+spanning-tree portfast
+no shutdown
+exit
+interface fastEthernet0/4
+switchport mode access
+switchport access vlan 1
+spanning-tree portfast
+no shutdown
+exit
+interface fastEthernet0/5
+switchport mode access
+switchport access vlan 1
+spanning-tree portfast
+no shutdown
+exit
+interface fastEthernet0/6
+switchport mode access
+switchport access vlan 1
+spanning-tree portfast
+no shutdown
+exit
+interface vlan 1
+ip address 10.10.1.11 255.255.255.0
+no shutdown
+exit
+ip default-gateway 10.10.1.1
+end

@@ -1,0 +1,18 @@
+
+Cisco Packet Tracer PC Command Line 1.0
+C:\>
+ping 10.10.1.101
+
+Pinging 10.10.1.101 with 32 bytes of data:
+
+Reply from 10.10.1.101: bytes=32 time=16ms TTL=128
+Reply from 10.10.1.101: bytes=32 time=10ms TTL=128
+Reply from 10.10.1.101: bytes=32 time=8ms TTL=128
+Reply from 10.10.1.101: bytes=32 time=9ms TTL=128
+
+Ping statistics for 10.10.1.101:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 16ms, Average = 10ms
+
+C:\>

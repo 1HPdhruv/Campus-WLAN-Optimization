@@ -1,0 +1,80 @@
+[
+  {
+    "figure": "01-baseline.png",
+    "caption": "Functioning baseline: shared client VLAN 1, clustered APs, same three network tiers.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_final_topology.png",
+    "sha256": "7e64c6ffa2ad82c8cc4237166da98ffe85b68ed8099ec089d30891848011f125"
+  },
+  {
+    "figure": "02-optimized.png",
+    "caption": "Saved optimized campus reopened in Packet Tracer; logical labels represent five functional zones.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_submission_ready.png",
+    "sha256": "7b0c23edb7b74156f544f261351f3801c4775022bebb7e46e197b661a9712caf"
+  },
+  {
+    "figure": "03-trunks.png",
+    "caption": "Distribution uplinks trunk all six VLANs, native VLAN 99; all six are forwarding.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_distribution_trunks.png",
+    "sha256": "a7bb7d0c372b3a63170a2b327a53986dfd99584a5d3abed078cb15ff784c8a45"
+  },
+  {
+    "figure": "04-student-dhcp.png",
+    "caption": "Student PC1 obtains 10.10.10.21/24 and gateway 10.10.10.1 after reopening.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_PC1_lease.png",
+    "sha256": "a084111b20ce12b66f8b3f768521f29bc29efd6e38867520c60a4435885f1970"
+  },
+  {
+    "figure": "05-dhcp-bindings.png",
+    "caption": "Edge router DHCP bindings corroborate the Student and Faculty leases.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_DHCP_bindings.png",
+    "sha256": "e7fdcfa13ea19ef03d61b12cd0b9e489f6893c0c29ee6af8e5365c82fc04d7de"
+  },
+  {
+    "figure": "06-acl-counters.png",
+    "caption": "Distribution ACL readback and counters support observed policy outcomes.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_ACL_counters.png",
+    "sha256": "265739771385d9240d99908d2fd2dff1e97a967c334f928d003e876ac8c16fe7"
+  },
+  {
+    "figure": "07-guest-denial.png",
+    "caption": "Guest wireless client receives zero echo replies from Administration; rejection is intended.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_guest_admin.png",
+    "sha256": "d331cb7eb7816d9290eb6fbf723d1910546ba1bf061e6c4f871ecba9970e9ed1"
+  },
+  {
+    "figure": "08-faculty-allowed.png",
+    "caption": "Faculty reaches Administration with four of four replies after initial ARP handling.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_faculty_admin.png",
+    "sha256": "5178c3676a44dd7c9f4894ce88b6dc936803a69b993f6bb9fc52791df8d85e1a"
+  },
+  {
+    "figure": "09-wireless-forwarding.png",
+    "caption": "Standalone Student WLAN forwards to the wired Student endpoint after reopening.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_wireless_student.png",
+    "sha256": "00187f5f173ea2f57cf51465d3d70e8ccdbfd4bffec5203a3fee71b6e1578d50"
+  },
+  {
+    "figure": "10-functional-comparison.png",
+    "caption": "Observed four-packet probe reply counts. Zero on denied flows represents policy enforcement.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/results/functional-comparison.png",
+    "sha256": "ad94a882b9ba077c8a126a07b1289e09750c670ce97a3fa27ddc8151aa1e92d2"
+  },
+  {
+    "figure": "11-historical-wlc.png",
+    "caption": "Preserved historical WLC diagnostic: VLAN 10 forwarding failure remains unresolved.",
+    "source": "/Users/dhruvmishra/Desktop/CN/PT-Capability-Lab/task-7/screenshots/77_H02_WLC_to_switch_packet_OSI.png",
+    "sha256": "f0a7b841ff6aa3a03393d2d78c781e98f83a55e767c4f5390800ffd06ead9eeb"
+  },
+  {
+    "figure": "12-ap-channel.png",
+    "caption": "Guest standalone AP configuration: channel 6, WPA2-PSK/AES.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_guests_AP.png",
+    "sha256": "58cf55ebfcca8625929818b793557c7b9155c0cdb56a19a6dcae48b79d21db0c"
+  },
+  {
+    "figure": "13-fresh-mac.png",
+    "caption": "Fresh MAC learning after reopening: Student WLAN on Fa0/5 VLAN 10; Guest WLAN on Fa0/6 VLAN 40.",
+    "source": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_fresh_wireless_MAC.png",
+    "sha256": "7b065d581392aa93827aa5567f06064ec60243379fdfaeca7bc30110066738f2"
+  }
+]

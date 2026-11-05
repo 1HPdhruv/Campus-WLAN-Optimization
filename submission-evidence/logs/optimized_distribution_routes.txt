@@ -1,0 +1,160 @@
+
+CAMPUS-DISTRIBUTION(config-if)#ip access-group GUESTS_IN in
+CAMPUS-DISTRIBUTION(config-if)#exit
+CAMPUS-DISTRIBUTION(config)#ip access-list extended IOT_IN
+CAMPUS-DISTRIBUTION(config-ext-nacl)#permit udp any eq bootpc any eq bootps
+CAMPUS-DISTRIBUTION(config-ext-nacl)#permit icmp any host 10.10.50.1 echo
+CAMPUS-DISTRIBUTION(config-ext-nacl)#permit ip any host 203.0.113.10
+CAMPUS-DISTRIBUTION(config-ext-nacl)#deny ip any any
+CAMPUS-DISTRIBUTION(config-ext-nacl)#exit
+CAMPUS-DISTRIBUTION(config)#interface vlan 50
+CAMPUS-DISTRIBUTION(config-if)#ip access-group IOT_IN in
+CAMPUS-DISTRIBUTION(config-if)#exit
+CAMPUS-DISTRIBUTION(config)#end
+CAMPUS-DISTRIBUTION#
+%LINK-5-CHANGED: Interface Vlan1, changed state to administratively down
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+
+%LINK-5-CHANGED: Interface Vlan10, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan10, changed state to up
+
+%LINK-5-CHANGED: Interface Vlan20, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan20, changed state to up
+
+%LINK-5-CHANGED: Interface Vlan30, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan30, changed state to up
+
+%LINK-5-CHANGED: Interface Vlan40, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan40, changed state to up
+
+%LINK-5-CHANGED: Interface Vlan50, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan50, changed state to up
+
+%LINK-5-CHANGED: Interface Vlan99, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan99, changed state to up
+
+%SYS-5-CONFIG_I: Configured from console by console
+show ip interfa%SPANTREE-2-RECV_PVID_ERR: Received BPDU with inconsistent peer vlan id 1 on FastEthernet0/2 VLAN99.
+
+%SPANTREE-2-BLOCK_PVID_LOCAL: Blocking FastEthernet0/2 on VLAN0099. Inconsistent local vlan.
+
+ce brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/1        10.255.0.6      YES manual up                    up 
+FastEthernet0/2        unassigned      YES unset  up                    up 
+FastEthernet0/3        unassigned      YES unset  up                    up 
+FastEthernet0/4        unassigned      YES unset  down                  down 
+FastEthernet0/5        unassigned      YES unset  down                  down 
+FastEthernet0/6        unassigned      YES unset  down                  down 
+FastEthernet0/7        unassigned      YES unset  down                  down 
+FastEthernet0/8        unassigned      YES unset  down                  down 
+FastEthernet0/9        unassigned      YES unset  down                  down 
+FastEthernet0/10       unassigned      YES unset  down                  down 
+FastEthernet0/11       unassigned      YES unset  down                  down 
+FastEthernet0/12       unassigned      YES unset  down                  down 
+FastEthernet0/13       unassigned      YES unset  down                  down 
+FastEthernet0/14       unassigned      YES unset  down                  down 
+FastEthernet0/15       unassigned      YES unset  down                  down 
+FastEthernet0/16       unassigned      YES unset  down                  down 
+FastEthernet0/17       unassigned      YES unset  down                  down 
+FastEthernet0/18       unassigned      YES unset  down                  down 
+FastEthernet0/19       unassigned      YES unset  down                  down 
+FastEthernet0/20       unassigned      YES unset  down                  down 
+FastEthernet0/21       unassigned      YES unset  down                  down 
+FastEthernet0/22       unassigned      YES unset  down                  down 
+FastEthernet0/23       unassigned      YES unset  down                  down 
+FastEthernet0/24       unassigned      YES unset  down                  down 
+GigabitEthernet0/1     unassigned      YES unset  down                  down 
+GigabitEthernet0/2     unassigned      YES unset  down                  down 
+Vlan1                  unassigned      YES manual administratively down down 
+Vlan10                 10.10.10.1      YES manual up                    up 
+Vlan20                 10.10.20.1      YES manual up                    up 
+Vlan30                 10.10.30.1      YES manual up                    up 
+Vlan40                 10.10.40.1      YES manual up                    up 
+Vlan50                 10.10.50.1      YES manual up                    up 
+Vlan99                 10.10.99.1      YES manual up                    up
+CAMPUS-DISTRIBUTION#copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+CAMPUS-DISTRIBUTION#%SPANTREE-2-UNBLOCK_CONSIST_PORT: Unblocking FastEthernet0/2 on VLAN0001. Port consistency restored.
+
+%SPANTREE-2-UNBLOCK_CONSIST_PORT: Unblocking FastEthernet0/2 on VLAN0099. Port consistency restored.
+
+
+
+
+
+
+
+
+
+
+CAMPUS-DISTRIBUTION con0 is now available
+
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAMPUS-DISTRIBUTION>enable
+CAMPUS-DISTRIBUTION#show interfaces trunk
+Port        Mode         Encapsulation  Status        Native vlan
+Fa0/2       on           802.1q         trunking      99
+Fa0/3       on           802.1q         trunking      99
+
+Port        Vlans allowed on trunk
+Fa0/2       10,20,30,40,50,99
+Fa0/3       10,20,30,40,50,99
+
+Port        Vlans allowed and active in management domain
+Fa0/2       10,20,30,40,50,99
+Fa0/3       10,20,30,40,50,99
+
+Port        Vlans in spanning tree forwarding state and not pruned
+Fa0/2       10,20,30,40,50,99
+Fa0/3       10,20,30,40,50,99
+
+CAMPUS-DISTRIBUTION#show ip route
+Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default, U - per-user static route, o - ODR
+       P - periodic downloaded static route
+
+Gateway of last resort is 10.255.0.5 to network 0.0.0.0
+
+     10.0.0.0/8 is variably subnetted, 7 subnets, 2 masks
+C       10.10.10.0/24 is directly connected, Vlan10
+C       10.10.20.0/24 is directly connected, Vlan20
+C       10.10.30.0/24 is directly connected, Vlan30
+C       10.10.40.0/24 is directly connected, Vlan40
+C       10.10.50.0/24 is directly connected, Vlan50
+C       10.10.99.0/24 is directly connected, Vlan99
+C       10.255.0.4/30 is directly connected, FastEthernet0/1
+S*   0.0.0.0/0 [1/0] via 10.255.0.5
+
+CAMPUS-DISTRIBUTION#

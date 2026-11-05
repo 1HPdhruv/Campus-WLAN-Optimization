@@ -1,0 +1,19 @@
+enable
+configure terminal
+hostname CAMPUS-EDGE
+no ip domain-lookup
+interface gigabitEthernet0/0
+ip address 10.255.0.1 255.255.255.252
+no shutdown
+exit
+interface gigabitEthernet0/1
+ip address 203.0.113.1 255.255.255.0
+no shutdown
+exit
+ip route 10.10.0.0 255.255.0.0 10.255.0.2
+ip dhcp excluded-address 10.10.1.1 10.10.1.20
+ip dhcp pool BASELINE
+network 10.10.1.0 255.255.255.0
+default-router 10.10.1.1
+exit
+end

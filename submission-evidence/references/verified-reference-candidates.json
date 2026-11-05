@@ -1,0 +1,46 @@
+[
+  {
+    "id": "R1",
+    "author": "Cisco",
+    "title": "Campus LAN and Wireless LAN Solution Design Guide",
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/cisco-campus-lan-wlan-design-guide.html",
+    "type": "vendor design guide",
+    "use": "hierarchical campus roles; production guidance rather than simulator proof"
+  },
+  {
+    "id": "R2",
+    "author": "Cisco",
+    "title": "Understand Site Survey Guidelines for WLAN Deployment",
+    "url": "https://www.cisco.com/c/en/us/support/docs/wireless/5500-series-wireless-controllers/116057-site-survey-guidelines-wlan-00.html",
+    "type": "vendor technical guidance",
+    "use": "site survey required for defensible RF conclusions"
+  },
+  {
+    "id": "R3",
+    "author": "Cisco",
+    "title": "RF Channels on a Cisco Business Wireless Network",
+    "url": "https://www.cisco.com/c/en/us/support/docs/smb/wireless/CB-Wireless-Mesh/2069-tz-Changing-RF-Channels.html",
+    "type": "vendor configuration guidance",
+    "use": "channel-selection concepts; actual AP-PT controls verified independently"
+  },
+  {
+    "id": "R4",
+    "author": "R. Droms",
+    "title": "Dynamic Host Configuration Protocol",
+    "identifier": "RFC 2131",
+    "date": "March 1997",
+    "url": "https://www.rfc-editor.org/rfc/rfc2131",
+    "type": "Internet standard specification",
+    "use": "DHCP and relay concepts, actual simulated leases separately verified"
+  },
+  {
+    "id": "R5",
+    "author": "Y. Rekhter et al.",
+    "title": "Address Allocation for Private Internets",
+    "identifier": "RFC 1918",
+    "date": "February 1996",
+    "url": "https://www.rfc-editor.org/rfc/rfc1918",
+    "type": "Best Current Practice",
+    "use": "private-address ranges for guest policy"
+  }
+]

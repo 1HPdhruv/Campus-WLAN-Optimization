@@ -1,0 +1,97 @@
+
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ping 10.10.1.11
+
+Pinging 10.10.1.11 with 32 bytes of data:
+
+Request timed out.
+Reply from 10.10.1.11: bytes=32 time<1ms TTL=255
+Reply from 10.10.1.11: bytes=32 time<1ms TTL=255
+Reply from 10.10.1.11: bytes=32 time<1ms TTL=255
+
+Ping statistics for 10.10.1.11:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>ping 10.10.1.11
+
+Pinging 10.10.1.11 with 32 bytes of data:
+
+Reply from 10.10.1.11: bytes=32 time<1ms TTL=255
+Reply from 10.10.1.11: bytes=32 time<1ms TTL=255
+Reply from 10.10.1.11: bytes=32 time<1ms TTL=255
+Reply from 10.10.1.11: bytes=32 time<1ms TTL=255
+
+Ping statistics for 10.10.1.11:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>ping 10.10.10.21
+
+Pinging 10.10.10.21 with 32 bytes of data:
+
+Reply from 10.10.10.21: bytes=32 time=3ms TTL=128
+Reply from 10.10.10.21: bytes=32 time<1ms TTL=128
+Reply from 10.10.10.21: bytes=32 time<1ms TTL=128
+Reply from 10.10.10.21: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.10.10.21:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 3ms, Average = 0ms
+
+C:\>ping 10.10.20.21
+
+Pinging 10.10.20.21 with 32 bytes of data:
+
+Request timed out.
+Reply from 10.10.20.21: bytes=32 time<1ms TTL=127
+Reply from 10.10.20.21: bytes=32 time<1ms TTL=127
+Reply from 10.10.20.21: bytes=32 time<1ms TTL=127
+
+Ping statistics for 10.10.20.21:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>ping 10.10.20.21
+
+Pinging 10.10.20.21 with 32 bytes of data:
+
+Reply from 10.10.20.21: bytes=32 time<1ms TTL=127
+Reply from 10.10.20.21: bytes=32 time=5ms TTL=127
+Reply from 10.10.20.21: bytes=32 time=1ms TTL=127
+Reply from 10.10.20.21: bytes=32 time<1ms TTL=127
+
+Ping statistics for 10.10.20.21:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 5ms, Average = 1ms
+
+C:\>ping 10.10.30.10
+
+Pinging 10.10.30.10 with 32 bytes of data:
+
+Reply from 10.10.10.1: Destination host unreachable.
+Reply from 10.10.10.1: Destination host unreachable.
+Reply from 10.10.10.1: Destination host unreachable.
+Reply from 10.10.10.1: Destination host unreachable.
+
+Ping statistics for 10.10.30.10:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>ping 10.10.99.11
+
+Pinging 10.10.99.11 with 32 bytes of data:
+
+Reply from 10.10.10.1: Destination host unreachable.
+Reply from 10.10.10.1: Destination host unreachable.
+Reply from 10.10.10.1: Destination host unreachable.
+Reply from 10.10.10.1: Destination host unreachable.
+
+Ping statistics for 10.10.99.11:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>

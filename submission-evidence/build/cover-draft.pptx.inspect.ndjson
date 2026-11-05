@@ -1,0 +1,13 @@
+{"kind":"deck","id":"pr/m627ic","name":"Deck"}
+{"kind":"layout","id":"ly/kjel0761","editable":false,"name":"Master","type":"master"}
+{"kind":"layout","id":"ly/pw3ah0by","editable":false,"name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title"},{"name":"subtitle","type":"subtitle"}]}
+{"kind":"layout","id":"ly/21472psj","editable":false,"name":"Section Header","type":"sectionHeader","placeholders":[{"name":"title","type":"title"}]}
+{"kind":"layout","id":"ly/1kvixcvi","editable":false,"name":"Title and Body","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/uh8julsv","editable":false,"name":"Title and Two Column","type":"twoColTx","placeholders":[{"name":"title","type":"title"},{"name":"Left column","type":"body"},{"name":"Right column","type":"body"}]}
+{"kind":"layout","id":"ly/98va187a","editable":false,"name":"Title and One Column","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/65c3m58f","editable":false,"name":"Blank","type":"blank"}
+{"kind":"slide","id":"sl/p00pi5","slideIndex":0,"layout":{"id":"ly/65c3m58f","name":"Blank"},"title":"Campus WLAN Optimization","textShapes":3,"backgroundColor":"rgba(245,247,251,1)"}
+{"kind":"textbox","id":"sh/cbe1c3it","slideIndex":0,"position":{"left":70,"top":170,"width":1140,"height":100},"text":"Campus WLAN Optimization","geometry":"rect","lineWidth":0,"style":{"fontSize":54,"typeface":"Aptos","color":"#132C48","bold":true,"alignment":"left"}}
+{"kind":"textbox","id":"sh/ba50jyh8","slideIndex":0,"position":{"left":70,"top":280,"width":1100,"height":100},"text":"Using Access Point Placement and Network Segmentation","geometry":"rect","lineWidth":0,"style":{"fontSize":34,"typeface":"Aptos","color":"#132C48","alignment":"left"}}
+{"kind":"textbox","id":"sh/q9cjat03","slideIndex":0,"position":{"left":70,"top":470,"width":1100,"height":100},"text":"SRM Institute of Science and Technology\nFive-member academic capstone team","geometry":"rect","lineWidth":0,"style":{"fontSize":26,"typeface":"Aptos","color":"#132C48","alignment":"left"}}
+{"kind":"notes","id":"nt/p00pi5","slideIndex":0,"text":""}

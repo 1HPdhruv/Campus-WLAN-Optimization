@@ -1,0 +1,4 @@
+# Local runtime and macOS cache files
+__pycache__/
+*.py[cod]
+.DS_Store

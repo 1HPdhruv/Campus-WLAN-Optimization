@@ -1,26 +1,14 @@
-# Network Architecture
+# Implemented three-tier campus architecture
 
-## Overview
-This document outlines the network architecture for the Campus WLAN optimization project.
+The saved baseline and optimized files contain distinct core, distribution and access devices, with a separate edge router. The optimized architecture is:
 
-## Architecture Design
+```text
+External PC — 2911 edge/DHCP — 3650-24PS routed core — 3560-24PS distribution
+                                                            |             |
+                                                        2960 Ground    2960 First
+                                                        PCs and APs    PCs
+```
 
-### Layers
-1. **Core Layer** - Central routing and switching
-2. **Distribution Layer** - Department-level connectivity
-3. **Access Layer** - Wireless access points and end devices
+The 3560 owns six SVI gateways, relay agents and inbound role ACLs. The 3650 carries routed /30 links and static routes. Access uplinks are 802.1Q trunks carrying all six VLANs, native 99. Two standalone AP-PT devices attach to Ground access ports; logical AP placement near a zone does not change that wiring. The external PC represents a simulated routed destination, not live Internet.
 
-### Key Components
-- Core switches for high-speed routing
-- Distribution switches for VLAN segregation
-- Wireless access points for coverage
-- Security appliances and firewalls
-
-## Design Principles
-- High availability
-- Redundancy at critical points
-- Scalability for future growth
-- Security segmentation via VLANs
-
-## Topology Diagram
-[See screenshots/configuration/ for detailed diagrams]
+This is a single-path academic implementation, with no redundancy. Device counts and locations are simulation assumptions. The existing architecture-decision and capability-audit documents record prior decisions; the implemented port map, addressing and measured scope are authoritative in [report-content.md](../report/report-content.md). Original narrative files were archived before reconciliation.

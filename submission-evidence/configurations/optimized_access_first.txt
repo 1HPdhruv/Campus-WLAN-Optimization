@@ -1,0 +1,56 @@
+enable
+configure terminal
+hostname ACCESS-FIRST
+no ip domain-lookup
+vlan 10
+name STUDENTS
+exit
+vlan 20
+name FACULTY
+exit
+vlan 30
+name ADMINISTRATION
+exit
+vlan 40
+name GUESTS
+exit
+vlan 50
+name IOT
+exit
+vlan 99
+name MANAGEMENT
+exit
+interface fastEthernet0/1
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,20,30,40,50,99
+no shutdown
+exit
+interface fastEthernet0/2
+switchport mode access
+switchport access vlan 20
+spanning-tree portfast
+no shutdown
+exit
+interface fastEthernet0/3
+switchport mode access
+switchport access vlan 30
+spanning-tree portfast
+no shutdown
+exit
+interface fastEthernet0/4
+switchport mode access
+switchport access vlan 99
+spanning-tree portfast
+no shutdown
+exit
+interface vlan 1
+no ip address
+shutdown
+exit
+interface vlan 99
+ip address 10.10.99.12 255.255.255.0
+no shutdown
+exit
+ip default-gateway 10.10.99.1
+end

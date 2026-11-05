@@ -1,0 +1,1157 @@
+[
+  {
+    "path": "screenshots/00_execution_preflight.png",
+    "captured_at": "2026-11-05T19:26:34.057336+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/00_execution_preflight.png"
+    ],
+    "sha256": "767c744132d86607fc16b37ee8c09f4dc7e624e3ad1820be783d0ad796c44bb3",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/01_blank_campus_workspace.png",
+    "captured_at": "2026-11-05T19:26:38.980226+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/01_blank_campus_workspace.png"
+    ],
+    "sha256": "d8272a5e7390a844ac07acfdde3a3517542f894446258ae6a3f0b7330f90e6ff",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/03_placement_state.png",
+    "captured_at": "2026-11-05T19:27:03.050958+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/03_placement_state.png"
+    ],
+    "sha256": "b825cd8e3fddb5012375345f2e54516c732645aba26d4872fb3dc9f573f4ef3a",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/04_wireless_palette.png",
+    "captured_at": "2026-11-05T19:27:49.016083+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/04_wireless_palette.png"
+    ],
+    "sha256": "97c650d24b1a0c5f7a0ce43770b86b2b59c17c534629226e4dbcc22081475faa",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/05_all_campus_devices.png",
+    "captured_at": "2026-11-05T19:28:22.099762+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/05_all_campus_devices.png"
+    ],
+    "sha256": "51651482bdfd68766c2f3497b83df3be8719c98e2f4d312b194f0976b4c17903",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/06_core_simulated_power_supply.png",
+    "captured_at": "2026-11-05T19:28:26.905133+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/06_core_simulated_power_supply.png"
+    ],
+    "sha256": "d965b147e2270724fe0956770f8f076765a52adc5064ec03556c646f17d9d615",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/07_cabled_campus_topology.png",
+    "captured_at": "2026-11-05T19:29:04.404051+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/07_cabled_campus_topology.png"
+    ],
+    "sha256": "d6c1235d2ba83c63bf57e47bf225009cec29c50e5a0ec1545da7ca5e59a273b7",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/08_distribution_port_map.png",
+    "captured_at": "2026-11-05T19:29:53.787325+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/08_distribution_port_map.png"
+    ],
+    "sha256": "293779aeeb7bb5e2e25fe89f93ae65ceba625198a1374107c50e39d3ec37b314",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/09_ground_port_map.png",
+    "captured_at": "2026-11-05T19:30:02.431092+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/09_ground_port_map.png"
+    ],
+    "sha256": "73cebc6a265ed3f299f829f1680910ce9cb348b14e73b68477f3210885184799",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_edge_interfaces.png",
+    "captured_at": "2026-11-05T19:31:09.856677+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_edge_interfaces.png"
+    ],
+    "sha256": "cb16d3c5a061daf3f058e5122c4e44fb7bb931352fb852bad5fb2740d9b2dc64",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_core_interfaces.png",
+    "captured_at": "2026-11-05T19:31:25.636323+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_core_interfaces.png"
+    ],
+    "sha256": "1bb9602e8616ee709b014d668262857f8ec478d1eb720c0fb46af875c3230270",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_distribution_interfaces.png",
+    "captured_at": "2026-11-05T19:31:41.608894+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_distribution_interfaces.png"
+    ],
+    "sha256": "10093d86236ec1e820613615fdd9dd305058c3e58bde69c3cd7ec4d48ea0313f",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_access_ground_interfaces.png",
+    "captured_at": "2026-11-05T19:31:55.661442+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_access_ground_interfaces.png"
+    ],
+    "sha256": "083a891365d5ce3bcffd0adc7da54716fdea6ad6c7be3dde435ec156bedd6d70",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_access_first_interfaces.png",
+    "captured_at": "2026-11-05T19:32:09.687792+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_access_first_interfaces.png"
+    ],
+    "sha256": "c47c3b0fb25069669b8e9ec3627ae85bbe1af10f15892fc5ff3bb8c660b5c488",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC0_IP.png",
+    "captured_at": "2026-11-05T19:33:17.097505+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC0_IP.png"
+    ],
+    "sha256": "276a417cad247a18ae0119e2c47bfd93fca5d989165cde3372e4503105d0f1a3",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC2_IP.png",
+    "captured_at": "2026-11-05T19:33:29.367187+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC2_IP.png"
+    ],
+    "sha256": "84fa0c3a62459180e1f9c844ed1a2ea765cbe2976a8f483b2f2af74568e2d3ff",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC4_IP.png",
+    "captured_at": "2026-11-05T19:33:41.938393+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC4_IP.png"
+    ],
+    "sha256": "54b27d821e7f685d5604d3686548d8280438a770d3944284b38ac83734c6d18d",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC5_IP.png",
+    "captured_at": "2026-11-05T19:33:54.046854+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC5_IP.png"
+    ],
+    "sha256": "d5ab106ddaa8811557a45fd30aa340fd4cdf583b5713ec11a3a9f2d05ad0321b",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC6_IP.png",
+    "captured_at": "2026-11-05T19:34:06.396416+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC6_IP.png"
+    ],
+    "sha256": "73b3f4fd67060244e40b7e015cf13a1b32da46a2e9898297219cb33d64f0862d",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC1_lease.png",
+    "captured_at": "2026-11-05T19:34:16.350229+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC1_lease.png"
+    ],
+    "sha256": "7577df8a4db4dafbd3c9fe6fd86c672007ed11fc83802117511f34a16f04b631",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC3_lease.png",
+    "captured_at": "2026-11-05T19:34:26.272730+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC3_lease.png"
+    ],
+    "sha256": "02787717e65a2dcebb09e46bb466e5f56b59342cab001fd2ba7aab60d31a67eb",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_students_AP.png",
+    "captured_at": "2026-11-05T19:34:38.773518+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_students_AP.png"
+    ],
+    "sha256": "3ed9ceab8b37199f00f644e2136a924f0ee6ebeddef9bb47495430875efec4bb",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_guests_AP.png",
+    "captured_at": "2026-11-05T19:34:51.259739+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_guests_AP.png"
+    ],
+    "sha256": "3af9ed962c2e77ff85d1cf74ad3576ba804032432bb5d9c4c08af55dd80f8e82",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_student_laptop_wireless.png",
+    "captured_at": "2026-11-05T19:35:12.847505+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_student_laptop_wireless.png"
+    ],
+    "sha256": "dfa558682fe9102cebdf2609943ccc69ac85ab7e6c1e5e81d722b69ea02a32b5",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_student_laptop_IP.png",
+    "captured_at": "2026-11-05T19:35:25.186478+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_student_laptop_IP.png"
+    ],
+    "sha256": "68d9d855e06c6fb5fe7bdcacb6b593ba85503517a9b2629c6e0947679fd50795",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_guest_laptop_wireless_initial.png",
+    "captured_at": "2026-11-05T19:35:46.686739+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_guest_laptop_wireless_initial.png"
+    ],
+    "sha256": "9c744ed6fec2a3b7bef40e24da42aa31415cdb2edbf2189bc85b613d666d6243",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_guest_laptop_IP.png",
+    "captured_at": "2026-11-05T19:36:06.854467+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_guest_laptop_IP.png"
+    ],
+    "sha256": "b6d99628f6796a12c73487450374d0931015fadaa546c2e0d496ac5ff442d65e",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_complete_topology.png",
+    "captured_at": "2026-11-05T19:36:09.488645+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_complete_topology.png"
+    ],
+    "sha256": "c0aa0c5264d50960dfd0e66ce7b4983c47120dd4ef40865303499f53ecf4b267",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC1_actual_lease.png",
+    "captured_at": "2026-11-05T19:37:11.259378+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC1_actual_lease.png"
+    ],
+    "sha256": "6c2505fffe4e94973080fe78a4d9bb694486ed6be32ca096e296e12f80ff8f62",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_PC3_actual_lease.png",
+    "captured_at": "2026-11-05T19:37:20.829468+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_PC3_actual_lease.png"
+    ],
+    "sha256": "3798382b897c76863e0ab32eea67afc797c2273f4ef8ce3beac2c0f6b1f2dab5",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_within_vlan.png",
+    "captured_at": "2026-11-05T19:37:33.007655+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_within_vlan.png"
+    ],
+    "sha256": "1475a908e12417738b30d1d947eb725b07654c9be9a9c21f3fd85df4160f0e80",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_student_admin.png",
+    "captured_at": "2026-11-05T19:37:45.182309+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_student_admin.png"
+    ],
+    "sha256": "a19dee4d604d83c57a7f1963a5ce37f4f07bb50cb4132f316a739ee74628a7ad",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_faculty_admin.png",
+    "captured_at": "2026-11-05T19:37:57.440517+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_faculty_admin.png"
+    ],
+    "sha256": "dadc8561e50f425e8af5ca9a6eb8398d16f53d0e0d25d6f4d0e117680cd78dac",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_guest_admin.png",
+    "captured_at": "2026-11-05T19:38:09.704145+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_guest_admin.png"
+    ],
+    "sha256": "b1f53ac8fe3fa83aa67828902e52eccc921070546936dcd7567de9a14916657a",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_guest_external.png",
+    "captured_at": "2026-11-05T19:38:32.659491+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_guest_external.png"
+    ],
+    "sha256": "e8147408e24739273fa161e86fca581a68c9a2b4fb98fbe3a04ca95623cd3494",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_iot_admin.png",
+    "captured_at": "2026-11-05T19:38:45.018517+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_iot_admin.png"
+    ],
+    "sha256": "59e0582e2857f88a5978630de0cd57bc0cc1af852b5d23709d83a008747dc58a",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_wireless_student.png",
+    "captured_at": "2026-11-05T19:38:57.299078+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_wireless_student.png"
+    ],
+    "sha256": "8f79ff500c450f3cc0650e494e4ce84efcc1d33dabf8796841be3ba049e45e15",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_DHCP_bindings.png",
+    "captured_at": "2026-11-05T19:39:06.698094+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_DHCP_bindings.png"
+    ],
+    "sha256": "cff6fae286a76d119a6e5c427456c82ad981bf9bea6c589c68b7bad4f2f9d4ee",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_core_routes.png",
+    "captured_at": "2026-11-05T19:39:16.035140+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_core_routes.png"
+    ],
+    "sha256": "12a44f6fb6e94c1540780d83f38f37e931765f350a316e45fcab584348a61fac",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_save_dialog_state.png",
+    "captured_at": "2026-11-05T19:39:48.338174+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_save_dialog_state.png"
+    ],
+    "sha256": "b8718ea59e68c1beed452d3fee974af0d4d4b03a9b4f9c0408cb8487ffa68881",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_reopened_after_restart.png",
+    "captured_at": "2026-11-05T19:46:08.094444+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_reopened_after_restart.png"
+    ],
+    "sha256": "37d908ad395bb8933e8cabf62ed8fd666a97b8bc4c7a39ae35d0be8a4b781371",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_restored_workspace_layout.png",
+    "captured_at": "2026-11-05T19:46:53.199695+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_restored_workspace_layout.png"
+    ],
+    "sha256": "3c08b939b897a0d6eac721e16cd121b1ccf37bb867a1b37ea4a085087356ceb9",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_windowed_geometry.png",
+    "captured_at": "2026-11-05T19:53:41.034464+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_windowed_geometry.png"
+    ],
+    "sha256": "648159a84e30ae165bce8bb922d41e173f956ce7c0a87844608a17a70d520d9c",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_device_geometry_verified.png",
+    "captured_at": "2026-11-05T19:53:43.378555+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_device_geometry_verified.png"
+    ],
+    "sha256": "b6e5f82b48ed181ac21bf07e782c262a4d8a61ffe8c59e2c27ae6696ac2ec3be",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_student_management.png",
+    "captured_at": "2026-11-05T19:55:20.834435+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_student_management.png"
+    ],
+    "sha256": "3c30446ab33ee46973fd6625c715d173764a969bf5e9712eef2f4c1496bc27c4",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_iot_external.png",
+    "captured_at": "2026-11-05T19:55:45.853401+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_iot_external.png"
+    ],
+    "sha256": "a8fa41b475ad6a3995be6d76a52c0fe7bdea64db6034c7676e7ffc5185d47970",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_reopened_wireless.png",
+    "captured_at": "2026-11-05T19:56:00.004074+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_reopened_wireless.png"
+    ],
+    "sha256": "17086b1e10dfa1982cf62366a408b9daa46483373d9dfada5ff4f350efe75e6e",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_zone_annotation.png",
+    "captured_at": "2026-11-05T19:56:06.731749+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_zone_annotation.png"
+    ],
+    "sha256": "265fb89779faae7560ac9f92731cc50325a9099b9a5cc98bd3548d70907bc4f1",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/baseline_final_topology.png",
+    "captured_at": "2026-11-05T19:58:05.085546+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/baseline_final_topology.png"
+    ],
+    "sha256": "7e64c6ffa2ad82c8cc4237166da98ffe85b68ed8099ec089d30891848011f125",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_edge_interfaces.png",
+    "captured_at": "2026-11-05T20:00:45.706666+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_edge_interfaces.png"
+    ],
+    "sha256": "ff42dde1e0ac2869449bed84b3d0857ef4b3c46b94c8286711671534cbe2719f",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_distribution_interfaces.png",
+    "captured_at": "2026-11-05T20:01:00.867926+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_distribution_interfaces.png"
+    ],
+    "sha256": "e6b82fdad9a76aed1aaab76a9e6206ecfdbc22e59c957e5bd0dd97c28c9f5eb6",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_access_ground_interfaces.png",
+    "captured_at": "2026-11-05T20:01:15.872614+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_access_ground_interfaces.png"
+    ],
+    "sha256": "9ade66a32e096a46f6ba39bb8233612672c4dbb73bc1accf48144a5794747126",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_access_first_interfaces.png",
+    "captured_at": "2026-11-05T20:01:30.681990+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_access_first_interfaces.png"
+    ],
+    "sha256": "c73a3f2961c8863f6ea36919a2d798c3bebcfe0b30d3b3280eecf2c9f673514b",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_PC0_IP.png",
+    "captured_at": "2026-11-05T20:03:16.998654+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_PC0_IP.png"
+    ],
+    "sha256": "9ed255d708c62f94390d0470f910374b05015f47060eb719b8a4213e20bcd960",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_PC2_IP.png",
+    "captured_at": "2026-11-05T20:03:32.020541+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_PC2_IP.png"
+    ],
+    "sha256": "340a0e46b7c35052a976cf068ef5cd21c7a4aaf23b0fe95cfe833f49df9405e3",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_PC4_IP.png",
+    "captured_at": "2026-11-05T20:03:46.959511+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_PC4_IP.png"
+    ],
+    "sha256": "b6b8daae17f3a58b2645961085a280790d93fae4c655ccca64ee46a0838712c7",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_PC5_IP.png",
+    "captured_at": "2026-11-05T20:04:01.784168+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_PC5_IP.png"
+    ],
+    "sha256": "eedbca899a15208f919980089bf31e09d739428a4b7ac2ff3ee6670f432426f0",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_Laptop0_IP.png",
+    "captured_at": "2026-11-05T20:04:16.634595+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_Laptop0_IP.png"
+    ],
+    "sha256": "95c30a8ba98a893c8f6730c95c7400b1346a3119545b9a17ff51041c96e8c78b",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_Laptop1_IP.png",
+    "captured_at": "2026-11-05T20:04:31.477610+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_Laptop1_IP.png"
+    ],
+    "sha256": "91d40848a05c0a82f7b09049bcad55e30c1e246a24cb6fc59d43e38870323d1b",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_PC1_lease.png",
+    "captured_at": "2026-11-05T20:04:44.523616+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_PC1_lease.png"
+    ],
+    "sha256": "021bebbefe8c387275bc9d16ffe1d7d1988ea777e9131a45bc1167b09ee0e6f8",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_PC3_lease.png",
+    "captured_at": "2026-11-05T20:04:57.518601+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_PC3_lease.png"
+    ],
+    "sha256": "0e0a69d3666be1039bd4e961362140ce1e89eecd2a35f6189adffc1d8d347668",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_students_AP.png",
+    "captured_at": "2026-11-05T20:05:12.477746+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_students_AP.png"
+    ],
+    "sha256": "14fbe61afe4ac9d732cbd983f96acae2c2d5f59819ebc1a4e4ffd22e50ad9a02",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_guests_AP.png",
+    "captured_at": "2026-11-05T20:05:29.535629+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_guests_AP.png"
+    ],
+    "sha256": "58cf55ebfcca8625929818b793557c7b9155c0cdb56a19a6dcae48b79d21db0c",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_AP_zone_positions.png",
+    "captured_at": "2026-11-05T20:05:36.799417+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_AP_zone_positions.png"
+    ],
+    "sha256": "5cf39e99974c8fa7f11a6958d1f78b1b7f44b2be77937044b54fbcee9334e15f",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_AP_cable_change.png",
+    "captured_at": "2026-11-05T20:05:40.709942+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_AP_cable_change.png"
+    ],
+    "sha256": "397d7a5c4ba5d4cd792e0164df18af0d3384ad7ef11cc60f987eaea58288147e",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_PC1_actual_lease.png",
+    "captured_at": "2026-11-05T20:07:08.262429+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_PC1_actual_lease.png"
+    ],
+    "sha256": "3c5403b5db1b544dd7181a57550f708731192c0a113ecf9cf769c1b751e99ccc",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_PC3_actual_lease.png",
+    "captured_at": "2026-11-05T20:07:20.066255+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_PC3_actual_lease.png"
+    ],
+    "sha256": "de9c7e9e5f1fbf6e6423f57d41729afbf4b3a9587438a3c6bbefa5f5e75e4a87",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_within_vlan.png",
+    "captured_at": "2026-11-05T20:07:34.181931+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_within_vlan.png"
+    ],
+    "sha256": "4f81b4a1b23e2964aac9eb2f127860d0148e35c856d17abc4ac82be74fda1cca",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_student_faculty.png",
+    "captured_at": "2026-11-05T20:08:01.101590+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_student_faculty.png"
+    ],
+    "sha256": "9df6b5c1b1478cac0fce7f177666895548a471237903e48152ead0f1657c0175",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_faculty_admin.png",
+    "captured_at": "2026-11-05T20:08:26.264170+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_faculty_admin.png"
+    ],
+    "sha256": "eb70b8c77f5d7f12bfbc64540a9b4f98f5df1f6f6384b5e6c74fa12b47dd4ede",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_student_admin.png",
+    "captured_at": "2026-11-05T20:08:40.489719+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_student_admin.png"
+    ],
+    "sha256": "3bfa3620e7a6597bd4f7e252ad516b47c9c7cd1c4faae5cc8cfd1ae55272fcb6",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_guest_external.png",
+    "captured_at": "2026-11-05T20:08:54.919787+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_guest_external.png"
+    ],
+    "sha256": "132ee468ea2437f1efb1eb631ed19f9fee11fa82cf8e05a76e63230e3a379928",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_guest_admin.png",
+    "captured_at": "2026-11-05T20:09:09.104101+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_guest_admin.png"
+    ],
+    "sha256": "80cd9cf5eae7bcf97850a922c868e73535fd7d7e80663ab28cb889333daf6f3f",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_iot_external.png",
+    "captured_at": "2026-11-05T20:09:23.280528+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_iot_external.png"
+    ],
+    "sha256": "7b7923017db912e3ce7641a3fadec56a6b7a567ec105dcfa8af2e3170905da53",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_iot_admin.png",
+    "captured_at": "2026-11-05T20:09:37.616370+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_iot_admin.png"
+    ],
+    "sha256": "c2e5d49591b5953c366f7d46a31e73fe0b75a7f05734d13e6b9cb2adfba57ca0",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_management_access.png",
+    "captured_at": "2026-11-05T20:10:02.736804+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_management_access.png"
+    ],
+    "sha256": "dd624c9d1e0adae10c7626c0e1dd3c7e84697309550b9c389c9fb5572d21f40a",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_management_core.png",
+    "captured_at": "2026-11-05T20:10:16.985030+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_management_core.png"
+    ],
+    "sha256": "ac5b83f599ea1b432d05ae2f5f98fdf5752d82c83dc3cae151099e1a2aee2a29",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_student_management.png",
+    "captured_at": "2026-11-05T20:10:31.049657+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_student_management.png"
+    ],
+    "sha256": "ebb0b752c53afeabd4f82a60a485b3f4f7d322ea946de8576ce1c281c24596d0",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_external_management.png",
+    "captured_at": "2026-11-05T20:10:45.326887+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_external_management.png"
+    ],
+    "sha256": "6656e62cb035cf4b8d8dca62919f08880d17deb86ca90f7b92338c12aed1dffb",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_wireless_student.png",
+    "captured_at": "2026-11-05T20:10:59.509720+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_wireless_student.png"
+    ],
+    "sha256": "94c1b39cc388bb95409061da5a4df12f6ebd15a1a9a3d2ba512419301d0a7847",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_distribution_trunks.png",
+    "captured_at": "2026-11-05T20:14:08.243021+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_distribution_trunks.png"
+    ],
+    "sha256": "a7bb7d0c372b3a63170a2b327a53986dfd99584a5d3abed078cb15ff784c8a45",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_distribution_routes.png",
+    "captured_at": "2026-11-05T20:14:09.943129+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_distribution_routes.png"
+    ],
+    "sha256": "4636cd342db322e574e8984b5f06d0d37fc21131c951e8615836dd0da9d7c4db",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_ACL_counters.png",
+    "captured_at": "2026-11-05T20:14:12.710427+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_ACL_counters.png"
+    ],
+    "sha256": "265739771385d9240d99908d2fd2dff1e97a967c334f928d003e876ac8c16fe7",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_current_dialog_readback.png",
+    "captured_at": "2026-11-05T20:18:19.649835+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_current_dialog_readback.png"
+    ],
+    "sha256": "80cbe8b06f430e1f6b73932d7365e00916abb931228c319a5c547484917acf96",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_main_geometry_after_editor_cancel.png",
+    "captured_at": "2026-11-05T20:19:36.969287+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_main_geometry_after_editor_cancel.png"
+    ],
+    "sha256": "974ab2f1e1179778190747be0494dc012223218fbae9eadaf027471c5605ba3d",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_ground_VLAN_membership.png",
+    "captured_at": "2026-11-05T20:20:30.124593+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_ground_VLAN_membership.png"
+    ],
+    "sha256": "ee0c0cfed43757df0fcc68ce0f1ceef4aa578d601e11fbd825ad28593db87524",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_ground_MAC.png",
+    "captured_at": "2026-11-05T20:20:31.983708+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_ground_MAC.png"
+    ],
+    "sha256": "e70cf887792f0f55ae78876e569acc164dcd44e22b3a2ed4a9ee5c7a64822747",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_first_VLAN_membership.png",
+    "captured_at": "2026-11-05T20:20:42.231550+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_first_VLAN_membership.png"
+    ],
+    "sha256": "d870b69bfe0d010846caaa52210ef997043eaa6b41d805d49233c7d888796507",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_first_MAC.png",
+    "captured_at": "2026-11-05T20:20:43.993422+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_first_MAC.png"
+    ],
+    "sha256": "d38a501f839e5cb2c10305d2b0bfe08bee4905202b60ae33b6532847df4333ff",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_DHCP_bindings.png",
+    "captured_at": "2026-11-05T20:20:53.545724+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_DHCP_bindings.png"
+    ],
+    "sha256": "b818ba4b95921d050f112f4b5560bf1a2895a90ab8f0b1cd6fe401f3e776d4c8",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_guest_association.png",
+    "captured_at": "2026-11-05T20:21:01.266093+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_guest_association.png"
+    ],
+    "sha256": "a29b6b763b84bd95ad67081d5ded77077de4eddcd969e6df18a86d7fbb757318",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_guest_association_details.png",
+    "captured_at": "2026-11-05T20:21:02.204416+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_guest_association_details.png"
+    ],
+    "sha256": "9d1fd7f0c306dab55e15db845c65255c88a5af6de2c948f3cb53fe7bf162acf4",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_final_topology.png",
+    "captured_at": "2026-11-05T20:21:04.878971+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_final_topology.png"
+    ],
+    "sha256": "26c6364669f26e2dc00ce26c8e13839ba8b5db249f7088ede373e5383b6d8f86",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_native_open_dialog.png",
+    "captured_at": "2026-11-05T20:23:15.055143+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_native_open_dialog.png"
+    ],
+    "sha256": "0f6ebc962e0ffbc339771f9b8a6a2d6df3468f66ee2c9bc7f2b7f90ae93c8f29",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_topology.png",
+    "captured_at": "2026-11-05T20:24:19.075365+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_topology.png"
+    ],
+    "sha256": "642185d449b1054818bc5d9509a31cfff722a756a8ddb0c1b80969ad66e03dc0",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_PC1_lease.png",
+    "captured_at": "2026-11-05T20:25:01.754754+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_PC1_lease.png"
+    ],
+    "sha256": "a084111b20ce12b66f8b3f768521f29bc29efd6e38867520c60a4435885f1970",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_PC3_lease.png",
+    "captured_at": "2026-11-05T20:25:22.347995+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_PC3_lease.png"
+    ],
+    "sha256": "408ac3870cc008b28a87197f7847c36ec1296b081c53b9d6b35e968d79fc11b0",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_within_vlan.png",
+    "captured_at": "2026-11-05T20:25:44.498834+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_within_vlan.png"
+    ],
+    "sha256": "07c807d5c9652c3f37557f6e86c1a42fe979bd8f05de68de7564ac2e7c161fd0",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_faculty_admin.png",
+    "captured_at": "2026-11-05T20:26:08.197072+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_faculty_admin.png"
+    ],
+    "sha256": "5178c3676a44dd7c9f4894ce88b6dc936803a69b993f6bb9fc52791df8d85e1a",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_guest_external.png",
+    "captured_at": "2026-11-05T20:26:31.722219+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_guest_external.png"
+    ],
+    "sha256": "d38476ec83b9e94cc568d553547c8a2b276d212cb7f67d99817d9ae5f4c08895",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_guest_admin.png",
+    "captured_at": "2026-11-05T20:26:44.291379+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_guest_admin.png"
+    ],
+    "sha256": "d331cb7eb7816d9290eb6fbf723d1910546ba1bf061e6c4f871ecba9970e9ed1",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_wireless_student.png",
+    "captured_at": "2026-11-05T20:26:57.174523+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_wireless_student.png"
+    ],
+    "sha256": "00187f5f173ea2f57cf51465d3d70e8ccdbfd4bffec5203a3fee71b6e1578d50",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_fresh_wireless_MAC.png",
+    "captured_at": "2026-11-05T20:27:07.066603+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_fresh_wireless_MAC.png"
+    ],
+    "sha256": "7b065d581392aa93827aa5567f06064ec60243379fdfaeca7bc30110066738f2",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_reopened_DHCP_bindings.png",
+    "captured_at": "2026-11-05T20:27:16.949168+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_reopened_DHCP_bindings.png"
+    ],
+    "sha256": "e7fdcfa13ea19ef03d61b12cd0b9e489f6893c0c29ee6af8e5365c82fc04d7de",
+    "kind": "test"
+  },
+  {
+    "path": "screenshots/optimized_submission_ready.png",
+    "captured_at": "2026-11-05T20:27:19.597922+05:30",
+    "capture_command": [
+      "screencapture",
+      "-x",
+      "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/submission-evidence/screenshots/optimized_submission_ready.png"
+    ],
+    "sha256": "7b0c23edb7b74156f544f261351f3801c4775022bebb7e46e197b661a9712caf",
+    "kind": "test"
+  }
+]

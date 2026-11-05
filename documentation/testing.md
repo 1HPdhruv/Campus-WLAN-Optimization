@@ -1,42 +1,9 @@
-# Testing Methodology
+# Executed essential tests
 
-## Testing Objectives
-1. Validate network performance metrics
-2. Verify coverage across campus
-3. Test inter-VLAN communication
-4. Assess security controls
-5. Measure throughput and latency
+Execution date: 5 November 2026. Installed simulator: Packet Tracer 9.0.1.0858. Both native files were created, saved and reopened through the application.
 
-## Test Cases
+The canonical [baseline](../results/baseline.csv) and [optimized](../results/optimized.csv) records link every four-packet outcome to an actual transcript. Nine baseline probes and thirteen optimized probes matched their expectations. Optimized has eight allowed 4/4 flows and five intended denied 0/4 flows. VLAN membership, all-six-VLAN trunk forwarding, SVI/routing readback, two actual DHCP leases and ACL counters corroborate the probes. Five optimized paths and two DHCP clients were checked again after reopening; baseline wireless was also rechecked after reopening.
 
-### Coverage Testing
-- Signal strength at various locations
-- Handoff performance between APs
-- Dead zone identification
+Preserve first ARP/convergence trials and bounded repeats. An intended ACL denial is a policy PASS, not a network packet-loss measurement. An associated wireless client is insufficient evidence without data forwarding. Historical Task 7 wired VLAN 10 PASS and WLC wireless FAIL remain unchanged outside the repository.
 
-### Performance Testing
-- Throughput testing (upload/download)
-- Latency and jitter measurements
-- Packet loss analysis
-
-### Security Testing
-- VLAN isolation verification
-- Access control enforcement
-- Authentication mechanisms
-
-### Load Testing
-- Concurrent user capacity
-- Bandwidth utilization
-- Network congestion handling
-
-## Testing Tools
-- Packet Tracer simulation tools
-- Speed test applications
-- Network monitoring utilities
-- Packet analyzers
-
-## Test Execution
-[Details on how tests were performed and documented]
-
-## Results Documentation
-Results are stored in the `results/` folder in CSV format.
+See [the report](../report/report-content.md) for complete procedures, addresses and limits, and [persistence outcomes](../submission-evidence/logs/persistence_results.json) for saved-file checks.

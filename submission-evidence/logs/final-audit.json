@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-05T20:36:18.505320+05:30",
+  "scope": "Final functional minimum viable submission audit",
+  "historical_lab": {
+    "original_files_checked": 852,
+    "all_unchanged": false,
+    "unchanged_count": 851,
+    "mismatches": [
+      {
+        "path": "task-7/tests/H02_wireless_forwarding_diagnostic.pkt",
+        "original_sha256": "e5ad6d03a554c85a31e988c6c61d4418a991489ff8801af96af68e2ef6608c08",
+        "current_sha256": "9b2e3f23dcc01ef6cc6f5cfcea34f99e07d0a7a79b368e2aa01cb5540fad0f93",
+        "modified_time": "2026-11-05T19:26:37.656780+05:30"
+      }
+    ],
+    "exception": "H02 file changed during the initial GUI session. No original byte copy recovered; exact state delta is unverified. Original diagnostic reports/screenshots and H01 wired control remain unchanged. No historical outcome was revised."
+  },
+  "preservation": {
+    "legacy_csv_byte_copies": true,
+    "original_presentation_unchanged": true,
+    "commits_created": false,
+    "software_installed": false,
+    "original_narrative_copies": [
+      "README.md",
+      "documentation/architecture.md",
+      "documentation/ip-addressing.md",
+      "documentation/testing.md",
+      "documentation/results.md",
+      "documentation/vlan-plan.md",
+      "documentation/wireless-plan.md"
+    ]
+  },
+  "screenshots": {
+    "execution_capture_records": 105,
+    "all_hashes_valid": true,
+    "curated_figure_copies": 13,
+    "genuine_capture_provenance": "Native screencapture command and time in screenshot-manifest.json; figure 10 is explicitly a derived graph; figure 11 is preserved historical evidence."
+  },
+  "baseline_results": {
+    "probes": 9,
+    "all_match_actual_transcripts": true,
+    "all_match_expected": true,
+    "allow_count": 9,
+    "deny_count": 0
+  },
+  "optimized_results": {
+    "probes": 13,
+    "all_match_actual_transcripts": true,
+    "all_match_expected": true,
+    "allow_count": 8,
+    "deny_count": 5
+  },
+  "comparison": {
+    "flows": 9,
+    "each_value_matches_completed_raw_probe": true,
+    "claim_boundary": "Functional echo-reply counts only. Intended ACL denial is not measured network packet loss. No throughput or RF coverage metric."
+  },
+  "native_topologies": {
+    "baseline": {
+      "path": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/packet-tracer/baseline/campus_baseline.pkt",
+      "bytes": 70547,
+      "sha256": "e3a95ff439943ed1ce243b3b1db9188ae041d0ff40fd8dd589b76c3f47767ce6",
+      "native_open_verified": true,
+      "evidence": "Native restart opened baseline; baseline_reopened_wireless 4/4"
+    },
+    "optimized": {
+      "path": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/packet-tracer/optimized/campus_optimized.pkt",
+      "bytes": 74802,
+      "sha256": "2d0c2eef05760920fae1da44cd11d40882bc66be8ff8da2c157b9a06a00e4afa",
+      "native_open_verified": true,
+      "evidence": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/packet-tracer/optimized/campus_optimized.pkt"
+    },
+    "optimized_reopened_probe_count": 5
+  },
+  "dhcp": {
+    "configured_pools": 6,
+    "tested_role_pools": [
+      "Students",
+      "Faculty"
+    ],
+    "actual_reopened_addresses": [
+      "10.10.10.21",
+      "10.10.20.21"
+    ],
+    "server": "10.255.0.1"
+  },
+  "presentation": {
+    "path": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/presentation/Campus_WLAN_Optimization_Final.pptx",
+    "sha256": "c60dbfd5c8837d67daa5dbb6c7fe5ecd7ec9f9c47140c39f3908fb1cfcbd9127",
+    "slides": 12,
+    "structural_validation": "PASS",
+    "artifact_tool_reimport": "PASS",
+    "libreoffice_open_and_pdf_export": "PASS",
+    "pdf_pages": 12,
+    "powerpoint_native_open": "NOT VERIFIED; application unavailable",
+    "visual_review": "All 12 authoring renders individually inspected; external-render spot checks on slides 5 and 11",
+    "layout_warnings": [
+      {
+        "available_bottom_in": 6.4062,
+        "columns": 3,
+        "declared_bottom_in": 6.0833,
+        "estimated_native_bottom_in": 6.4838,
+        "footer_object_ids": [
+          "5"
+        ],
+        "kind": "native_table_overflow",
+        "overflow_in": 0.0775,
+        "rows": 7,
+        "slide": 5,
+        "table_id": "4"
+      }
+    ],
+    "validation_receipt": "submission-evidence/build/presentation-validation.json"
+  },
+  "report": {
+    "chapters": 6,
+    "figure_manifest_entries": 13,
+    "local_links_checked": true,
+    "final_institutional_formatting": "Pending supplied template",
+    "team_identities": "Pending user input"
+  },
+  "project_files_changed_from_start": [
+    "README.md",
+    "documentation/architecture.md",
+    "documentation/ip-addressing.md",
+    "documentation/testing.md",
+    "documentation/results.md",
+    "documentation/vlan-plan.md",
+    "documentation/wireless-plan.md",
+    "packet-tracer/baseline/campus_baseline.pkt",
+    "packet-tracer/optimized/campus_optimized.pkt",
+    "results/optimized.csv",
+    "results/baseline.csv",
+    "results/comparison.csv"
+  ],
+  "status": "Functional deliverables PASS; historical byte-preservation exception disclosed"
+}

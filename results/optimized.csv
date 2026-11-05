@@ -1,9 +1,14 @@
-Metric,Value,Unit
-Average Throughput,180,Mbps
-Peak Throughput,250,Mbps
-Average Latency,12,ms
-Packet Loss Rate,0.3,%
-WiFi Coverage,95,%
-Device Connection Time,2,seconds
-Concurrent Users,500,users
-Bandwidth Utilization,45,%
+test_id,flow,expected,packets_sent,echo_replies,status,evidence
+within_vlan,Wired within VLAN,allow,4,4,PASS,submission-evidence/logs/optimized_within_vlan_first.txt
+student_faculty,Student to Faculty,allow,4,4,PASS,submission-evidence/logs/optimized_student_faculty_repeat.txt
+faculty_admin,Faculty to Administration,allow,4,4,PASS,submission-evidence/logs/optimized_faculty_admin_repeat.txt
+student_admin,Student to Administration,deny,4,0,PASS,submission-evidence/logs/optimized_student_admin_first.txt
+guest_external,Guest to external host,allow,4,4,PASS,submission-evidence/logs/optimized_guest_external_first.txt
+guest_admin,Guest to Administration,deny,4,0,PASS,submission-evidence/logs/optimized_guest_admin_first.txt
+iot_external,IoT proxy to external host,allow,4,4,PASS,submission-evidence/logs/optimized_iot_external_first.txt
+iot_admin,IoT proxy to Administration,deny,4,0,PASS,submission-evidence/logs/optimized_iot_admin_first.txt
+management_access,Management to access switch,allow,4,4,PASS,submission-evidence/logs/optimized_management_access_repeat.txt
+management_core,Management to core,allow,4,4,PASS,submission-evidence/logs/optimized_management_core_first.txt
+student_management,Student to management switch,deny,4,0,PASS,submission-evidence/logs/optimized_student_management_first.txt
+external_management,External host to management switch,deny,4,0,PASS,submission-evidence/logs/optimized_external_management_first.txt
+wireless_student,Wireless Student to wired Student,allow,4,4,PASS,submission-evidence/logs/optimized_wireless_student_first.txt

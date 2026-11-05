@@ -1,9 +1,10 @@
-Metric,Baseline,Optimized,Improvement,Improvement %
-Average Throughput (Mbps),50,180,130,260%
-Peak Throughput (Mbps),75,250,175,233%
-Average Latency (ms),35,12,-23,-66%
-Packet Loss Rate (%),2.5,0.3,-2.2,-88%
-WiFi Coverage (%),78,95,17,22%
-Device Connection Time (s),8,2,-6,-75%
-Concurrent Users,120,500,380,317%
-Bandwidth Utilization (%),65,45,-20,-31%
+flow,label,short_label,baseline_received,optimized_received,packets_sent,optimized_expected,baseline_evidence,optimized_evidence
+within_vlan,Wired within VLAN,Wired within VLAN,4,4,4,allow,submission-evidence/logs/baseline_within_vlan_first.txt,submission-evidence/logs/optimized_within_vlan_first.txt
+student_admin,Student to Administration,Student/Admin,4,0,4,deny,submission-evidence/logs/baseline_student_admin_first.txt,submission-evidence/logs/optimized_student_admin_first.txt
+faculty_admin,Faculty to Administration,Faculty/Admin,4,4,4,allow,submission-evidence/logs/baseline_faculty_admin_first.txt,submission-evidence/logs/optimized_faculty_admin_repeat.txt
+guest_admin,Guest to Administration,Guest/Admin,4,0,4,deny,submission-evidence/logs/baseline_guest_admin_first.txt,submission-evidence/logs/optimized_guest_admin_first.txt
+guest_external,Guest to external host,Guest/External,4,4,4,allow,submission-evidence/logs/baseline_guest_external_repeat.txt,submission-evidence/logs/optimized_guest_external_first.txt
+iot_admin,IoT proxy to Administration,IoT proxy to Administration,4,0,4,deny,submission-evidence/logs/baseline_iot_admin_first.txt,submission-evidence/logs/optimized_iot_admin_first.txt
+wireless_student,Wireless Student to wired Student,Wireless Student to wired Student,4,4,4,allow,submission-evidence/logs/baseline_wireless_student_first.txt,submission-evidence/logs/optimized_wireless_student_first.txt
+student_management,Student to management switch,Student to management switch,4,0,4,deny,submission-evidence/logs/baseline_student_management_repeat.txt,submission-evidence/logs/optimized_student_management_first.txt
+iot_external,IoT proxy to external host,IoT proxy to external host,4,4,4,allow,submission-evidence/logs/baseline_iot_external_repeat.txt,submission-evidence/logs/optimized_iot_external_first.txt

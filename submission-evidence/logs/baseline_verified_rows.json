@@ -1,0 +1,83 @@
+[
+  {
+    "test_id": "within_vlan",
+    "flow": "Wired within VLAN",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_within_vlan_first.txt"
+  },
+  {
+    "test_id": "student_admin",
+    "flow": "Student to Administration",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_student_admin_first.txt"
+  },
+  {
+    "test_id": "faculty_admin",
+    "flow": "Faculty to Administration",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_faculty_admin_first.txt"
+  },
+  {
+    "test_id": "guest_admin",
+    "flow": "Guest to Administration",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_guest_admin_first.txt"
+  },
+  {
+    "test_id": "guest_external",
+    "flow": "Guest to external host",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_guest_external_repeat.txt"
+  },
+  {
+    "test_id": "iot_admin",
+    "flow": "IoT proxy to Administration",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_iot_admin_first.txt"
+  },
+  {
+    "test_id": "wireless_student",
+    "flow": "Wireless Student to wired Student",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_wireless_student_first.txt"
+  },
+  {
+    "test_id": "student_management",
+    "flow": "Student to management switch",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_student_management_repeat.txt"
+  },
+  {
+    "test_id": "iot_external",
+    "flow": "IoT proxy to external host",
+    "expected": "allow",
+    "packets_sent": 4,
+    "echo_replies": 4,
+    "status": "PASS",
+    "evidence": "submission-evidence/logs/baseline_iot_external_repeat.txt"
+  }
+]

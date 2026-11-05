@@ -1,0 +1,54 @@
+enable
+configure terminal
+hostname CAMPUS-EDGE
+no ip domain-lookup
+interface gigabitEthernet0/0
+ip address 10.255.0.1 255.255.255.252
+no shutdown
+exit
+interface gigabitEthernet0/1
+ip address 203.0.113.1 255.255.255.0
+no shutdown
+exit
+ip route 10.10.0.0 255.255.0.0 10.255.0.2
+no ip dhcp pool BASELINE
+no ip dhcp excluded-address 10.10.1.1 10.10.1.20
+ip dhcp excluded-address 10.10.10.1 10.10.10.20
+ip dhcp pool STUDENTS
+network 10.10.10.0 255.255.255.0
+default-router 10.10.10.1
+exit
+ip dhcp excluded-address 10.10.20.1 10.10.20.20
+ip dhcp pool FACULTY
+network 10.10.20.0 255.255.255.0
+default-router 10.10.20.1
+exit
+ip dhcp excluded-address 10.10.30.1 10.10.30.20
+ip dhcp pool ADMINISTRATION
+network 10.10.30.0 255.255.255.0
+default-router 10.10.30.1
+exit
+ip dhcp excluded-address 10.10.40.1 10.10.40.20
+ip dhcp pool GUESTS
+network 10.10.40.0 255.255.255.0
+default-router 10.10.40.1
+exit
+ip dhcp excluded-address 10.10.50.1 10.10.50.20
+ip dhcp pool IOT
+network 10.10.50.0 255.255.255.0
+default-router 10.10.50.1
+exit
+ip dhcp excluded-address 10.10.99.1 10.10.99.20
+ip dhcp pool MANAGEMENT
+network 10.10.99.0 255.255.255.0
+default-router 10.10.99.1
+exit
+ip access-list extended EXTERNAL_IN
+deny ip any 10.10.99.0 0.0.0.255
+deny ip any 10.255.0.0 0.0.255.255
+permit ip any any
+exit
+interface gigabitEthernet0/1
+ip access-group EXTERNAL_IN in
+exit
+end

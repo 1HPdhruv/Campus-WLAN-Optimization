@@ -1,0 +1,37 @@
+{
+  "within_vlan": [
+    4,
+    4,
+    0
+  ],
+  "student_admin": [
+    4,
+    4,
+    0
+  ],
+  "faculty_admin": [
+    4,
+    4,
+    0
+  ],
+  "guest_admin": [
+    4,
+    4,
+    0
+  ],
+  "guest_external": [
+    4,
+    4,
+    0
+  ],
+  "iot_admin": [
+    4,
+    4,
+    0
+  ],
+  "wireless_student": [
+    4,
+    4,
+    0
+  ]
+}

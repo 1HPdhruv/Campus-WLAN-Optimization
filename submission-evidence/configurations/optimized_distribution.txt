@@ -1,0 +1,126 @@
+enable
+configure terminal
+hostname CAMPUS-DISTRIBUTION
+no ip domain-lookup
+ip routing
+interface fastEthernet0/1
+no switchport
+ip address 10.255.0.6 255.255.255.252
+no shutdown
+exit
+vlan 10
+name STUDENTS
+exit
+vlan 20
+name FACULTY
+exit
+vlan 30
+name ADMINISTRATION
+exit
+vlan 40
+name GUESTS
+exit
+vlan 50
+name IOT
+exit
+vlan 99
+name MANAGEMENT
+exit
+interface vlan 1
+no ip address
+shutdown
+exit
+interface fastEthernet0/2
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,20,30,40,50,99
+no shutdown
+exit
+interface fastEthernet0/3
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,20,30,40,50,99
+no shutdown
+exit
+interface vlan 10
+ip address 10.10.10.1 255.255.255.0
+ip helper-address 10.255.0.1
+no shutdown
+exit
+interface vlan 20
+ip address 10.10.20.1 255.255.255.0
+ip helper-address 10.255.0.1
+no shutdown
+exit
+interface vlan 30
+ip address 10.10.30.1 255.255.255.0
+ip helper-address 10.255.0.1
+no shutdown
+exit
+interface vlan 40
+ip address 10.10.40.1 255.255.255.0
+ip helper-address 10.255.0.1
+no shutdown
+exit
+interface vlan 50
+ip address 10.10.50.1 255.255.255.0
+ip helper-address 10.255.0.1
+no shutdown
+exit
+interface vlan 99
+ip address 10.10.99.1 255.255.255.0
+ip helper-address 10.255.0.1
+no shutdown
+exit
+ip route 0.0.0.0 0.0.0.0 10.255.0.5
+ip access-list extended STUDENTS_IN
+permit udp any eq bootpc any eq bootps
+deny ip any 10.10.30.0 0.0.0.255
+deny ip any 10.10.99.0 0.0.0.255
+deny ip any 10.255.0.0 0.0.255.255
+permit ip any any
+exit
+interface vlan 10
+ip access-group STUDENTS_IN in
+exit
+ip access-list extended FACULTY_IN
+permit udp any eq bootpc any eq bootps
+deny ip any 10.10.99.0 0.0.0.255
+deny ip any 10.255.0.0 0.0.255.255
+permit ip any any
+exit
+interface vlan 20
+ip access-group FACULTY_IN in
+exit
+ip access-list extended ADMIN_IN
+permit udp any eq bootpc any eq bootps
+deny ip any 10.10.99.0 0.0.0.255
+deny ip any 10.255.0.0 0.0.255.255
+permit ip any any
+exit
+interface vlan 30
+ip access-group ADMIN_IN in
+exit
+ip access-list extended GUESTS_IN
+permit udp any eq bootpc any eq bootps
+permit icmp any host 10.10.40.1 echo
+deny ip any 10.0.0.0 0.255.255.255
+deny ip any 172.16.0.0 0.15.255.255
+deny ip any 192.168.0.0 0.0.255.255
+permit ip any any
+exit
+interface vlan 40
+ip access-group GUESTS_IN in
+exit
+ip access-list extended IOT_IN
+permit udp any eq bootpc any eq bootps
+permit icmp any host 10.10.50.1 echo
+permit ip any host 203.0.113.10
+deny ip any any
+exit
+interface vlan 50
+ip access-group IOT_IN in
+exit
+end

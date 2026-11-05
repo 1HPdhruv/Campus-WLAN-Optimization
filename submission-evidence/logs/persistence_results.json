@@ -1,0 +1,46 @@
+{
+  "optimized_opened": "/Users/dhruvmishra/Desktop/CN/Campus-WLAN-Optimization/packet-tracer/optimized/campus_optimized.pkt",
+  "baseline_opened": "Native restart opened baseline; baseline_reopened_wireless 4/4",
+  "probes": {
+    "within_vlan": {
+      "stats": [
+        4,
+        4,
+        0
+      ],
+      "expected": "allow"
+    },
+    "faculty_admin": {
+      "stats": [
+        4,
+        4,
+        0
+      ],
+      "expected": "allow"
+    },
+    "guest_external": {
+      "stats": [
+        4,
+        4,
+        0
+      ],
+      "expected": "allow"
+    },
+    "guest_admin": {
+      "stats": [
+        4,
+        0,
+        4
+      ],
+      "expected": "deny"
+    },
+    "wireless_student": {
+      "stats": [
+        4,
+        4,
+        0
+      ],
+      "expected": "allow"
+    }
+  }
+}

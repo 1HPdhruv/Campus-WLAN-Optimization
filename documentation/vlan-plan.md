@@ -1,29 +1,14 @@
-# VLAN Planning
+# Implemented VLAN plan
 
-## VLAN Strategy
+The current implementation uses the approved mapping below. Earlier conflicting mappings in the original repository (including swapped Students/Faculty roles) are superseded here; their byte-identical originals are retained in submission-evidence/references/original-project-documents. Earlier requirements and audit documents remain historical planning records.
 
-### VLAN Configuration
-VLANs are used to segment network traffic and improve security and performance.
+| VLAN | Role | Simulation subnet | Distribution gateway |
+| --- | --- | --- | --- |
+| 10 | Students | 10.10.10.0/24 | 10.10.10.1 |
+| 20 | Faculty | 10.10.20.0/24 | 10.10.20.1 |
+| 30 | Administration | 10.10.30.0/24 | 10.10.30.1 |
+| 40 | Guests | 10.10.40.0/24 | 10.10.40.1 |
+| 50 | IoT | 10.10.50.0/24 | 10.10.50.1 |
+| 99 | Network Management | 10.10.99.0/24 | 10.10.99.1 |
 
-### VLAN List
-- **VLAN 1**: Default VLAN
-- **VLAN 10**: Faculty Network
-- **VLAN 20**: Student Network
-- **VLAN 30**: Guest Network
-- **VLAN 40**: Administrative Network
-
-## Benefits
-1. Improved security through traffic isolation
-2. Reduced broadcast domains
-3. Better network management
-4. Flexible policy enforcement
-
-## Access Point VLAN Assignment
-[Details on which APs serve which VLANs]
-
-## Inter-VLAN Routing
-- Centralized routing through core switches
-- Access control lists (ACLs) for inter-VLAN communication
-
-## VLAN Trunk Configuration
-[Trunk port details and tagging information]
+Baseline campus clients share VLAN 1; optimized clients use the role VLANs. Management VLAN 99 is also native on the two access trunks. It is not an unused black-hole native VLAN and must not be described as that security pattern.

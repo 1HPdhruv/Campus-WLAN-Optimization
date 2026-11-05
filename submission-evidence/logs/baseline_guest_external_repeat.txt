@@ -1,0 +1,46 @@
+
+Cisco Packet Tracer PC Command Line 1.0
+C:\>
+ping 10.10.1.130
+
+Pinging 10.10.1.130 with 32 bytes of data:
+
+Reply from 10.10.1.130: bytes=32 time=16ms TTL=128
+Reply from 10.10.1.130: bytes=32 time=12ms TTL=128
+Reply from 10.10.1.130: bytes=32 time=10ms TTL=128
+Reply from 10.10.1.130: bytes=32 time=7ms TTL=128
+
+Ping statistics for 10.10.1.130:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 7ms, Maximum = 16ms, Average = 11ms
+
+C:\>ping 203.0.113.10
+
+Pinging 203.0.113.10 with 32 bytes of data:
+
+Request timed out.
+Reply from 203.0.113.10: bytes=32 time=13ms TTL=125
+Reply from 203.0.113.10: bytes=32 time=6ms TTL=125
+Reply from 203.0.113.10: bytes=32 time=13ms TTL=125
+
+Ping statistics for 203.0.113.10:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 6ms, Maximum = 13ms, Average = 10ms
+
+C:\>ping 203.0.113.10
+
+Pinging 203.0.113.10 with 32 bytes of data:
+
+Reply from 203.0.113.10: bytes=32 time=17ms TTL=125
+Reply from 203.0.113.10: bytes=32 time=9ms TTL=125
+Reply from 203.0.113.10: bytes=32 time=11ms TTL=125
+Reply from 203.0.113.10: bytes=32 time=9ms TTL=125
+
+Ping statistics for 203.0.113.10:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 17ms, Average = 11ms
+
+C:\>

@@ -1,9 +1,10 @@
-Metric,Value,Unit
-Average Throughput,50,Mbps
-Peak Throughput,75,Mbps
-Average Latency,35,ms
-Packet Loss Rate,2.5,%
-WiFi Coverage,78,%
-Device Connection Time,8,seconds
-Concurrent Users,120,users
-Bandwidth Utilization,65,%
+test_id,flow,expected,packets_sent,echo_replies,status,evidence
+within_vlan,Wired within VLAN,allow,4,4,PASS,submission-evidence/logs/baseline_within_vlan_first.txt
+student_admin,Student to Administration,allow,4,4,PASS,submission-evidence/logs/baseline_student_admin_first.txt
+faculty_admin,Faculty to Administration,allow,4,4,PASS,submission-evidence/logs/baseline_faculty_admin_first.txt
+guest_admin,Guest to Administration,allow,4,4,PASS,submission-evidence/logs/baseline_guest_admin_first.txt
+guest_external,Guest to external host,allow,4,4,PASS,submission-evidence/logs/baseline_guest_external_repeat.txt
+iot_admin,IoT proxy to Administration,allow,4,4,PASS,submission-evidence/logs/baseline_iot_admin_first.txt
+wireless_student,Wireless Student to wired Student,allow,4,4,PASS,submission-evidence/logs/baseline_wireless_student_first.txt
+student_management,Student to management switch,allow,4,4,PASS,submission-evidence/logs/baseline_student_management_repeat.txt
+iot_external,IoT proxy to external host,allow,4,4,PASS,submission-evidence/logs/baseline_iot_external_repeat.txt
